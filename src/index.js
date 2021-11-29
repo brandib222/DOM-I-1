@@ -47,30 +47,30 @@ const siteTitle = document.querySelector('.cta h1');
 const siteButton = document.querySelector('.cta button');
 
 // select elements of the feature section
-const featuresHeader = document.querySelector('.features-h4');
-const featuresContent = document.querySelector('.features-content');
+const featuresHeader = document.querySelector('h4:nth-of-type(1)');
+const featuresContent = document.querySelector('p:nth-of-type(1)');
 
 // select elements of the about section
-const aboutHeader = document.querySelector('.about-h4');
-const aboutContent = document.querySelector('.about-content');
+const aboutHeader = document.querySelector('h4:nth-of-type(2)');
+const aboutContent = document.querySelector('p:nth-of-type(2)');
 
 // select elements of services section
-const servicesHeader = document.querySelector('.services-h4');
-const servicesContent = document.querySelector('.services-content');
+const servicesHeader = document.querySelector('h4:nth-of-type(3)');
+const servicesContent = document.querySelector('p:nth-of-type(3)');
 
 // select elements of the product section
-const productHeader = document.querySelector('.product-h4');
-const productContent = document.querySelector('.product-content');
+const productHeader = document.querySelector('h4:nth-of-type(4)');
+const productContent = document.querySelector('p:nth-of-type(4)');
 
 // select elements of vision section
-const visionHeader = document.querySelector('.vision-h4');
-const visionContent = document.querySelector('.vision-content');
+const visionHeader = document.querySelector('h4:nth-of-type(5)');
+const visionContent = document.querySelector('p:nth-of-type(5)');
 
 // select elements of contact section
-const contactHeader = document.querySelector('.contact-h4');
-const contactAddress = document.querySelector('.address');
-const contactPhone = document.querySelector('.phone');
-const contactEmail = document.querySelector('.email')
+const contactHeader = document.querySelector('h4:nth-of-type(6)');
+const contactAddress = document.querySelector('p:nth-of-type(7)');
+const contactPhone = document.querySelector('p:nth-of-type(8)');
+const contactEmail = document.querySelector('p:nth-of-type(9)')
 
 // select all elements of footer section
 const siteFooter = document.querySelector('footer');
@@ -80,9 +80,29 @@ const logoImg = document.querySelector('.logo-img');
 const ctaImg = document.querySelector('.cta-img');
 const accentImg = document.querySelector('.accent-img');
 
+// append some stuff ???
+//document.querySelector('h4').appendChild(featuresHeader);
 
+// update the text content for top part
 siteTitle.textContent = 'DOM Is Awesome';
 siteButton.textContent = 'Get Started';
+
+// update text content for features
+featuresHeader.textContent = 'Features';
+featuresContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+//update content for about
+aboutHeader.textContent = 'About';
+aboutContent.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+//update content for services
+
+//update content for product
+
+//update content for vision
+
+//update content for contact
+
 siteFooter.textContent = 'Copyright Great Idea! 2021';
 
 
