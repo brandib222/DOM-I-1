@@ -12,17 +12,17 @@ Inside `src/index.js` there is declared an object literal containing all the dat
 
 ## Git Setup
 
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository.
-* [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: `git push origin <firstName-lastName>`.
+* [x ] Create a forked copy of this project.
+* [x ] Clone your OWN version of the repository.
+* [x ] Create a new branch: `git checkout -b <firstName-lastName>`.
+* [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x ] Push commits: `git push origin <firstName-lastName>`.
 
 ## Running the project
 
-* [ ] Run `npm install` to download the project's dependencies.
-* [ ] Run `npm start` to launch the page on `http://localhost:3000`.
-* [ ] Run `npm test` to execute auto tests against your work (you'll need a new terminal window).
+* [x ] Run `npm install` to download the project's dependencies.
+* [x ] Run `npm start` to launch the page on `http://localhost:3000`.
+* [x ] Run `npm test` to execute auto tests against your work (you'll need a new terminal window).
 
 ## MVP
 
@@ -37,8 +37,8 @@ Inside `src/index.js` there is declared an object literal containing all the dat
 
 ### Add class names
 
-* [ ] Give the anchor tags _inside the nav_ an italic style by adding the classname `italic` to them alone.
-* [ ] Give the anchor tag _inside the footer_ a bolder appearence by adding the classname `bold` to it alone.
+* [ ] Give the anchor tags _inside the nav_ an italic style by adding the className `italic` to them alone.
+* [ ] Give the anchor tag _inside the footer_ a bolder appearance by adding the className `bold` to it alone.
 
 ### Add image sources
 

@@ -33,10 +33,57 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
     "copyright": "Copyright Great Idea! 2021",
   },
   "images": {
-    "logo-img": "http://localhost:9000/img/logo.png",
-    "cta-img": "http://localhost:9000/img/cta.png",
-    "accent-img": "http://localhost:9000/img/accent.png",
+    "logo-img": "mocks/img/logo.png",
+    "cta-img": "mocks/img/cta.png",
+    "accent-img": "mocks/img/accent.png",
   },
 };
+// select all of the navs
+const siteNav1 = document.querySelector('nav');
+const links = document.querySelectorAll('nav a');
+
+// select elements of the top
+const siteTitle = document.querySelector('.cta h1');
+const siteButton = document.querySelector('.cta button');
+
+// select elements of the feature section
+const featuresHeader = document.querySelector('.features-h4');
+const featuresContent = document.querySelector('.features-content');
+
+// select elements of the about section
+const aboutHeader = document.querySelector('.about-h4');
+const aboutContent = document.querySelector('.about-content');
+
+// select elements of services section
+const servicesHeader = document.querySelector('.services-h4');
+const servicesContent = document.querySelector('.services-content');
+
+// select elements of the product section
+const productHeader = document.querySelector('.product-h4');
+const productContent = document.querySelector('.product-content');
+
+// select elements of vision section
+const visionHeader = document.querySelector('.vision-h4');
+const visionContent = document.querySelector('.vision-content');
+
+// select elements of contact section
+const contactHeader = document.querySelector('.contact-h4');
+const contactAddress = document.querySelector('.address');
+const contactPhone = document.querySelector('.phone');
+const contactEmail = document.querySelector('.email')
+
+// select all elements of footer section
+const siteFooter = document.querySelector('footer');
+
+// select all elements of image section
+const logoImg = document.querySelector('.logo-img');
+const ctaImg = document.querySelector('.cta-img');
+const accentImg = document.querySelector('.accent-img');
+
+
+siteTitle.textContent = 'DOM Is Awesome';
+siteButton.textContent = 'Get Started';
+siteFooter.textContent = 'Copyright Great Idea! 2021';
+
 
 console.log('project wired!')
