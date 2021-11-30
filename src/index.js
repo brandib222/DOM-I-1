@@ -54,7 +54,6 @@ ctaImg.src = siteContent.images['cta-img'];
 // select third image
 const accentImg = document.querySelector('#middle-img');
 accentImg.src = siteContent.images['accent-img'];
-console.log(accentImg);
 
 // FOOTER LINK
 const footerLink = document.querySelector('footer a');
@@ -63,6 +62,9 @@ footerLink.classList.add('bold');
 
 // CONTACT
 const contact = document.querySelector('section.contact');
-console.log(contact);
+// ways you can do this:
+// see notebook Sprint 5, Module 1 if you have trouble with this
+//contact.children[0].textContent = siteContent.contact['contact-h4'];
+contact.querySelector('h4').textContent['contact-h4'];
 
 console.log('project wired!')
