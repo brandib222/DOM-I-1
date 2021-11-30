@@ -64,7 +64,16 @@ footerLink.classList.add('bold');
 const contact = document.querySelector('section.contact');
 // ways you can do this:
 // see notebook Sprint 5, Module 1 if you have trouble with this
-//contact.children[0].textContent = siteContent.contact['contact-h4'];
-contact.querySelector('h4').textContent['contact-h4'];
+// can't get the second way to work, so stick with first method
+
+contact.children[0].textContent = siteContent.contact['contact-h4'];
+// second method: contact.querySelector('h4').textContent['contact-h4'];
+// update the address
+contact.children[1].textContent = siteContent.contact['address'];
+//update the phone number
+contact.children[2].textContent = siteContent.contact['phone'];
+//update the email
+contact.children[3].textContent = siteContent.contact['email'];
+
 
 console.log('project wired!')
